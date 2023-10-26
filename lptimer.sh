@@ -48,5 +48,7 @@ while true; do
     # Your commands here (if going to use the iteration variable use here)
     
     ITERATION=$(($ITERATION+1))
+
+    # If not, you can use here too, but here the variable is +1 forward, that's why i said the thing before
 done
 
