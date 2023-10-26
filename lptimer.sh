@@ -44,6 +44,9 @@ while true; do
         # echo "lptimer: seconds: $SECS"
         sleep $SECS
     fi
+    
+    # Your commands here (if going to use the iteration variable use here)
+    
     ITERATION=$(($ITERATION+1))
 done
 
